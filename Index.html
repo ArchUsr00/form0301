@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDAT Formulario Ingreso información</title>
+</head>
+<body>
+    
+    <form id="IFORM" class="Formulario" name="IFORM"  >
+    <H3>Ingrese su Información</H3>
+        <div>
+          <input type="text" id="nombres" name="nombres"  placeholder="Nombres"  >
+          <span class="hidden" role="alert"></span>
+        </div>
+        <div>
+            <input type="text" id="apellidos" name="apellidos"  placeholder="Apellidos" >
+          <span class="hidden" role="alert"></span>
+        </div>
+        <div>
+          <input type="email" id="email" name="email" class="form-control" placeholder="Correo electrónico" autocomplete="off" wfd-id="id2">
+          <span class="hidden" role="alert"></span>
+        </div>
+        <div>
+          <input type="number" id="celular" name="celular" class="form-control" placeholder="Teléfono / celular" minlength="9" maxlength="12" autocomplete="off" wfd-id="id3">
+          <span class="hidden" role="alert"></span>
+        </div>
+        <div>
+            <input type="dni" id="DNI" name="DNI" class="form-control" placeholder="DNI" minlength="9" maxlength="8" autocomplete="off" wfd-id="id3">
+            <span class="hidden" role="alert"></span>
+          </div>  
+        <div class="form-actions">
+          <button type="submit" id="Solicitar" class="Solicitar">Solicitar</button>
+        </div>
+      </form>
+
+
+</body>
+</html>
